@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.master{
+    background: linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(Asset/air\ condition.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#home-about{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 400px;
+    padding-left: 70px;
+    height: 60vh;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+#home-about h1{
+    font-size: 50px;
+}

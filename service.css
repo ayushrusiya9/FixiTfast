@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.master{
+    background: linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(Asset/air\ condition.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#home-service{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 400px;
+    padding-left: 70px;
+    height: 60vh;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+#home-service h1{
+    font-size: 50px;
+}
+
+#service-sec{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 72px;
+    
+}
+
+.heading-sec h4{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    color: gray;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.heading-sec h1{
+    font-family: "DM Sans", sans-serif;
+    font-size: 45px;
+}
+
+.service-btn-sec{
+    display: flex;
+    align-items: flex-end;
+    gap: 17px;
+}
+
+#service-btn1{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #FFC527;
+   border-radius: 25px;
+   color: rgb(34,34,34);
+   font-size: 15px;
+   font-family: "DM Sans", sans-serif;
+   cursor: pointer;
+}
+
+#service-btn1:hover{
+    background-color: rgb(34,34,34);
+    color: white;
+    transition: 0.5s ease;
+}
+
+#service-btn2:hover{
+    background-color: #FFC527;
+    color: rgb(34,34,34);
+    transition: 0.5s ease;
+}
+
+#service-btn2{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: rgb(34,34,34);
+   border-radius: 25px;
+   color: white;
+   font-size: 15px;
+   font-family: "DM Sans", sans-serif;
+   cursor: pointer;
+}
+
+.service-sec hr{
+    width: 90%;
+    background-color: #FFC527;
+    height: 2px;
+    border: none;
+    margin-left: 65px;
+}
+
+#portfolio-content-item-h2-sec a{
+    color:black;
+    text-decoration: none;
+   font-family: "DM Sans", sans-serif;
+   font-family: "DM Sans", sans-serif;
+}
+
+#portfolio-content-item-h2-sec a:hover{
+    color: #FFC527;
+    transition: 0.5s ease;
+    text-decoration:underline;
+}
+
+.portfolio-btn-sec{
+    text-align: center;
+    margin-top: 50px;
+ 
+}
+
+.portfolio-btn-sec button{
+    width: 212px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background-color: #FFC527;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.portfolio-btn-sec button:hover{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    transition: 0.5s ease;
+
+}
+
+
+
+.portfolio-btn-sec button a{
+    text-decoration: none;
+   font-family: "DM Sans", sans-serif;
+   font-size: 15px;
+   font-weight: 500;
+   color: black;
+}
+
+#review-heading-sec{
+    width: 700px;
+}
+
+#review-heading-sec h4{
+    font-family: "Titillium Web", sans-serif;
+    color: #FFC527;
+    letter-spacing: 0.5px;
+    font-size: 17px;  
+    font-weight: 400;
+}
+
+#review-heading-sec h1{
+    font-family: "DM Sans", sans-serif;
+    font-size: 45px;
+    margin-top: 15px;
+    color: black;
+}
+
+#review-content-sec{
+    display: flex;
+    gap: 32px;
+    width: 556px;
+}
+
+#review-content-sec p{
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    padding-top: 12px;
+}
+
+#review-content-sec hr{
+    border: none;
+    background-color: rgb(217, 216, 216);
+    width: 1px;
+    height: 200px;
+}
+
+.review-star-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: -190px;
+}
+
+.review-star-ul ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.review-star-ul h5{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+} 
