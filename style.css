@@ -19,6 +19,10 @@ html, body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.hide{
+    display: none;
+}
+
 .navbar img{
     height: 56px;
     /* width: 90px; */
