@@ -1399,218 +1399,34 @@ html, body {
     color: white;
 }
 
-@media (max-width: 400px) {
-    #navbar button{
-        display: none;
-    }
+@media (max-width: 1200px) {
 
-    .container h1{
-        font-size: 26px;
-        text-align: center;
-    }
-
-    .second-content2-2{
-        width: 90%;
-        margin: 0;
-    }
-
-    #second-content2-right{
+    .house{
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        margin-left: 0;
-    }
-}
-
-@media (max-width: 699px) {
-
-
-    .form{
-        grid-template-columns: repeat(1,auto);
-        grid-template-rows: repeat(6,1fr);
-        gap: 10px;
-        grid-row-gap: 10px;
-        margin-left: 20px;
-    }
-}
-
-@media (max-width: 899px) {
-    .navbar{
-        width: 90%; 
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    #navbar{
-        display: flex;
-        gap: 12px;
-        align-items: center;
-    }
- 
-    .navbar label{
-        display: block;
-    }
-
-    #navbar label i{
-        position: relative;
-        z-index: 3;
+        width: auto;
+        height: auto;
+        padding: 12px;
+        text-align: center;
     }
     
-    .container .btn button{
-        width: 130px;
+    .house-content h1{
+        width: auto;
     }
-
-    .navbar ul{
-        display: none;
-        position: absolute;
-        z-index: 2;
-        top: 52px;
-        background-color: white;
-        color: black;
-        border-radius: 10px;
-        width: 160px;
-        text-align: start;
-        line-height: 45px;
-        right: 27px;
-        height: 290px;
-        padding-top: 35px;
-        padding-right: 12px;
-    }
-
-    .navbar ul li{
-        /* margin-top: 40px; */
-        border: 1px solid gray;
-        border-radius: 12px;
-        padding: 5px;
-        margin: 5px;
-    }
-
-    #navbar-ul a{
-        color: black;
-    }
-
-    .container{
-        position: relative;
-        z-index: 2;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 120px;
-        width: 100%;
-        justify-content: center;
-    }
-
-    .container h1{
-        font-size: 35px;
-    }
-
-    .container p{
-        width: 80%;
-    }
-
-    .rating{
-        margin: 0;
-        margin-top: 30px;
-    }
-
-    .first-container div{
-        margin: 0;
-    }
-
-    .first-container div p{
-        width: 80%;
-    }
-
-    .first-container hr{
-        display: none;
-    }
-
-    .first-container{
-        flex-wrap: wrap;
-        align-items: center;
-        margin: 0;
-    }
-
-    .second-container{
-        position: unset;
-        margin: 0;
-    }
-
-    .part{
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    #request-quote{
-        display: none;
-    }
-
-    .second-section-content{
-        flex-wrap: wrap;
-    } 
-
-    .content2{
-        width: 90%;
-    }
-
-    .second-content2{
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-    }
-
-    .mid-content{
-        position: unset;
-        margin: 0;
-        padding: 0;
-    }
-
-    .secont-section-content2{
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
-
-    .button-call{
+    
+    .house-btn{
         flex-wrap: wrap;
         justify-content: center;
     }
-
-    .fourth-section{
-        margin: 0;
-        text-align: center;
-    }
-
-    .form{
-        grid-template-columns: repeat(2,auto);
-        grid-template-rows: repeat(3,1fr);
-        gap: 10px;
-        grid-row-gap: 10px;
-        margin-left: 20px;
-    }
-
-    #form-type input{
-        margin: 0;
-        /* width: auto; */
-        /* padding: 0; */
-        gap: 0;
-        /* margin-left: -29px; */
-    }
-
-    .portfolio-content{
-        grid-template-columns: repeat(1,auto);
-        grid-template-rows: repeat(6,auto);
-        height: auto;
-    }
-}
-
-@media (max-width: 1200px) {
     .portfolio{
         height: auto;
+    }
+
+    .technical-team{
+        height: auto;
+    }
+
+    #technical-team{
+        flex-wrap: wrap;
     }
 
     .first-container{
@@ -1620,7 +1436,7 @@ html, body {
         margin-left: 10px;
         padding: 0;
     }
-
+    
     .secont-section-content2{
         flex-wrap: wrap;
         width: 90%;
@@ -1641,14 +1457,32 @@ html, body {
 
     .about2{
         flex-wrap: wrap;
-        background-color: none;
+        background-color: white;
+        height: auto;
         width: auto;
+        gap: 12px;
+        margin: 12px;
+        width: auto;
+    }
+
+    .review{
+        height: auto;
+    }
+
+    .container{
+        margin-top: 120px;
     }
 
     .review1{
         flex-wrap: wrap;
         margin: 0;
         width: auto;
+        text-align: center;
+        height: auto;
+    }
+
+    .review-star{
+        margin: 12px;
     }
 
     .review-section2{
@@ -1659,7 +1493,313 @@ html, body {
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(3,1fr);
     }
+    
+    .booking{
+        height: auto;
+        text-align: center;
+    }
+
+    #booking-set{
+        flex-wrap: wrap;
+    }
+    
+    .footer{
+        height: auto;
+    }
+
+    #footer{
+        flex-wrap: wrap;
+    }
+
+    #footer-2{
+        flex-wrap: wrap;
+        
+    }
+} 
+
+@media (max-width: 400px) {
+    #navbar button{
+        display: none;
+    }
+    
+    .container h1{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .second-content2-2{
+        width: 90%;
+        margin: 0;
+        margin-top: 27px;
+    }
+
+    #second-content2-right{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    #portfolio-content img{
+        height: auto;
+        width: 360px;
+    }
+
+    #portfolio-content{
+        text-align: center;
+        margin-left: -9px;
+    }
+
+    #portfolio-content-item-h2 a{
+        width: auto;
+        margin: 0;
+    }
 }
+
+
+@media (max-width: 899px) {
+
+    #booking-2-head, h4, h1, p{
+        width: auto;
+    }
+
+    #booking-2-head h4{
+        width: auto;
+    }
+
+    #booking-2-head h1{
+        width: auto;
+    }
+
+    #booking-2-head p{
+        width: auto;
+    }
+
+    #booking-2-form{
+        width: auto;
+        height: auto;
+    }
+
+    #booking-2-form input{
+        width: auto;
+    }
+
+    .happy-customer{
+        height: auto;
+    }
+
+    #happy-customer{
+        margin: 12px;
+    }
+
+     .display-none{
+        display: none;
+     }
+
+    .navbar{
+        width: 90%; 
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #navbar{
+        display: flex;
+        gap: 12px;
+        align-items: center;
+    }
+    
+    .navbar label{
+        display: block;
+    }
+    
+    #navbar label i{
+        position: relative;
+        z-index: 3;
+    }
+    
+    .container .btn button{
+        width: 130px;
+    }
+    
+    .navbar ul{
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 52px;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        width: 160px;
+        text-align: start;
+        line-height: 45px;
+        right: 27px;
+        height: 290px;
+        padding-top: 35px;
+        padding-right: 12px;
+    }
+    
+    .navbar ul li{
+        /* margin-top: 40px; */
+        border: 1px solid gray;
+        border-radius: 12px;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    #navbar-ul a{
+        color: black;
+    }
+    
+    .container{
+        position: relative;
+        z-index: 2;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 120px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .container h1{
+        font-size: 35px;
+    }
+    
+    .container p{
+        width: 80%;
+    }
+    
+    .rating{
+        margin: 0;
+        margin-top: 30px;
+    }
+    
+    .first-container div{
+        margin: 0;
+    }
+    
+    .first-container div p{
+        width: 80%;
+    }
+    
+    .first-container hr{
+        display: none;
+    }
+    
+    .first-container{
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .second-container{
+        position: unset;
+        margin: 0;
+    }
+    
+    .part{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #request-quote{
+        display: none;
+    }
+    
+    .second-section-content{
+        flex-wrap: wrap;
+        margin: 0;
+    } 
+    
+    .content2{
+        width: 90%;
+    }
+    
+    .second-content2{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .mid-content{
+        position: unset;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .secont-section-content2{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        margin-left: 15px;
+    }
+    
+    .button-call{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .fourth-section{
+        margin: 0;
+        text-align: center;
+    }
+    
+    .form{
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(3,1fr);
+        gap: 10px;
+        grid-row-gap: 10px;
+        margin-left: 20px;
+        width: auto;
+        height: auto;
+    }
+    
+    #form-type input{
+        margin: 0;
+        /* width: auto; */
+        /* padding: 0; */
+        gap: 0;
+        /* margin-left: -29px; */
+    }
+
+    #portfolio-content{
+        width: auto;
+    }
+    
+    .portfolio-content{
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(6,auto);
+        height: auto;
+        margin: 0;
+    }
+}
+
+@media (max-width: 699px){
+
+
+    .form{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      gap: 10px;
+      grid-row-gap: 10px;
+      margin-left: 20px;
+      height: auto;
+      width: auto;
+      margin: 12px;
+    }
+
+    .portfolio-content{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+}
+
 
 
 @media (max-width: 1496px){
