@@ -92,6 +92,7 @@
 .say-hello{
   display: flex;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .say-hello-1{
@@ -155,4 +156,39 @@
 
 .say-hello-1-2{
   text-align: center;
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+.say-hello-1-2 button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(34,34,34);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.say-hello-1-2 button:hover{
+    background-color: #267ECE;
+    transition: 0.5s ease;
+}
+
+.say-hello-2-1{
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "DM Sans", sans-serif;
+
+}
+.say-hello-2 img{
+    border-radius: 12px;
+    margin-left: 22px;
+}
+
+.say-hello-2-2{
+    margin: 20px;
 }
