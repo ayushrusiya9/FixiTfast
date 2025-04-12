@@ -1147,7 +1147,7 @@ html, body {
 .booking1{
     /* background-image: url(Asset/second-section-image3.jpg); */
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
-    url('Asset/second-section-image3.jpg');
+    url('Asset/image/second-section-image3.jpg');
     border-radius: 15px;
     height: 730px;
     opacity: 1;
@@ -1262,7 +1262,7 @@ html, body {
 }
 
 .footer{
-    height: 550px;
+    height: 400px;
     width: 100%;
     background-color: rgb(34, 34, 34);
     display: flex;
@@ -1282,7 +1282,7 @@ html, body {
 
 #footer-1{
     width: 400px;
-    height: 500px;
+    height: 360px;
     text-align: start;
     color: white;
     font-family: "DM Sans", sans-serif;
@@ -1315,6 +1315,11 @@ html, body {
     gap: 19px;
 }
 
+.say-hello-2-2{
+    font-family: "DM Sans", sans-serif;
+
+}
+
 #footer-2 ul li a{
     text-decoration: none;
     color: white;
@@ -1325,6 +1330,11 @@ html, body {
 #footer-2 ul li a:hover{
     color: #FFC527;
     transition: 1s ease;
+}
+
+.say-hello-2-3{
+    display: flex;
+    gap: 12px;
 }
 
 #footer-3{
@@ -1400,6 +1410,22 @@ html, body {
 }
 
 @media (max-width: 1200px) {
+    .booking-2{
+        width: 100%;
+    }
+    
+    #booking-2-form{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    #booking-2-form input{
+        width: 100%;
+    }
+
+    #message{
+        width: 100%;
+    }
 
     .house{
         flex-wrap: wrap;
