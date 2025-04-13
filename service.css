@@ -107,7 +107,7 @@
     color:black;
     text-decoration: none;
    font-family: "DM Sans", sans-serif;
-   font-family: "DM Sans", sans-serif;
+   margin-left: -39px;
 }
 
 #portfolio-content-item-h2-sec a:hover{
@@ -195,7 +195,6 @@
     align-items: center;
     justify-content: center;
     margin-top: 35px;
-    margin-left: -190px;
 }
 
 .review-star-ul ul{
@@ -208,3 +207,39 @@
     color: white;
     font-family: "DM Sans", sans-serif;
 } 
+
+#review-section2-content1 h1 {
+    font-size: 95px;
+    color: #FFC527;
+    font-family: "DM Sans", sans-serif;
+}
+
+#review-section2-content1 h4 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    color: black;
+}
+
+@media screen and (max-width: 400px) {
+    
+    #portfolio-content-item-h2-sec {
+        /* margin-left: -10px; */
+    }
+}
+
+
+@media screen and (max-width: 999px) {
+
+   #service-sec{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }   
+
+   .service-sec hr{
+    width: 70%;
+   }
+}
+
