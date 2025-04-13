@@ -5,7 +5,7 @@
 }
 
 .master{
-    background: linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(Asset/air\ condition.jpg);
+    background: linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(Asset/image/air\ condition.jpg);
     height: 70vh;
     background-size: cover;
     background-position: center;
@@ -191,4 +191,66 @@
 
 .say-hello-2-2{
     margin: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .say-hello{
+        width: 87%;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    
+    .master1{
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+    .say-hello{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 36px;
+        margin-left: 0;
+        margin-top: 10vh;
+        width: 90%;
+    }
+
+    .say-hello-1{
+        width: 90%;
+        height: auto;
+    }
+
+    .say-hello-list ul{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .say-hello-1-2 button{
+        margin-bottom: 12px;
+    }
+
+    .say-hello-1-inputs{
+        margin-top: 12px;
+    }
+
+    .say-hello-2{
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .say-hello{
+        width: 95%;
+        margin: 30px;
+        /* margin-left: 55px; */
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .say-hello{
+        width: 87%;
+    }
 }

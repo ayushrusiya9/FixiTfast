@@ -5,7 +5,7 @@
 }
 
 .master{
-    background: linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(Asset/air\ condition.jpg);
+    background: linear-gradient(to top, rgba(1, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(Asset/image/air\ condition.jpg);
     height: 70vh;
     background-size: cover;
     background-position: center;
@@ -220,14 +220,6 @@
     font-family: "DM Sans", sans-serif;
     color: black;
 }
-
-@media screen and (max-width: 400px) {
-    
-    #portfolio-content-item-h2-sec {
-        /* margin-left: -10px; */
-    }
-}
-
 
 @media screen and (max-width: 999px) {
 
