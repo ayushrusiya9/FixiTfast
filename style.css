@@ -1044,9 +1044,10 @@ body {
 #happy-customer {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 65px;
     gap: 30px;
     margin-left: 70px;
+    width: 90%;
 }
 
 #happy-customer-content {
@@ -1405,7 +1406,7 @@ body {
     display: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 
     .form span{
         margin-left: -47px;
@@ -1424,9 +1425,6 @@ body {
         display: none;
     }
 
-    #footer-2-h3 {
-        display: block;
-    }
 
     #footer-2-h3 a {
         color: #FFC527;
@@ -1505,7 +1503,7 @@ body {
     }
 
     .element-section {
-        margin-top: 20vh;
+        margin-top: 5vh;
     }
 
     #booking-2-head,
@@ -1750,11 +1748,6 @@ body {
         display: block;
     }
 
-    .navbar ul {
-        /* display: none; */
-    }
-    
-
     #navbar {
         display: flex;
         gap: 12px;
@@ -1794,6 +1787,10 @@ body {
 }
 
 @media (max-width: 1200px) {
+    #review-content hr{
+        display: none;
+    }
+
     #footer-3 {
         margin-top: -65px;
         margin-bottom: 12px;
